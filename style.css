@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+body {
+    background-color: #548687;
+    font-family: Arial, sans-serif; /* Ensure consistent typography */
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the container vertically in the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    height: 10vh; /* Adjust as needed to fit your design */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content within the container */
+    
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center boxes horizontally */
+    align-items: center; /* Center boxes vertically */
+    gap: 1.5vmin; /* Space between boxes */
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.rem;
+    background-color: #191913;
+    color: #ffffff;
+    border-radius: 1rem;
+    border: none;
+    display: flex;
+    cursor: pointer;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.rem;
+    background-color: #191913;
+    color: #ffffff;
+    border-radius: 1rem;
+    border: none;
+    display: flex;
+    cursor: pointer;
+}
+
+#msg{
+    color: #ffffff;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
+
+}
